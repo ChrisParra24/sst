@@ -70,10 +70,59 @@
         </div>
     </div>
 
-    {{-- This is the second part in our site --}}
-    <div class="container-fluid mt-5">
-
-    </div>
+    {{-- This is the part of the single payment method --}}
+    <div class="container mt-5 mb-5">
+        <div class="card">
+            <div class="card-header">
+                <h1 class="card-title">Método de pago</h1>
+            </div>
+            {{-- imagen de master card y de visa(metodos de pago) --}}
+            <div class="card-body px-5">
+                <form action="#">
+                    {{-- Name of the client --}}
+                    <div  class="form-group row">
+                        <div class="col-sm-2 col-form-label">
+                            <label for="">Nombre del titular</label>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" placeholder="Ingrese el nombre del titular de la tarjeta"> 
+                        </div>
+                    </div>
+                    {{-- Credit card --}}
+                    <div class="form-group row">
+                        {{-- Number of the credit card --}}
+                        <div class="col-sm-2 col-form-label">
+                            <label for="">Número de tarjeta</label>
+                        </div>
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control text-center" placeholder="Número de su tarjeta">
+                        </div>
+                        {{-- CVV --}}
+                        <div class="col-sm-1 col-form-label">
+                            <label for="">CVV</label>
+                        </div>
+                        <div class="col-sm-2">
+                            <input type="text" class="form-control text-center" placeholder="CVV">
+                        </div>
+                        {{-- Vencimiento --}}
+                        <div class="col-sm-1 col-form-label">
+                            <label for="">Vence</label>
+                        </div>
+                        <div class="col-sm-2">
+                            <input type="text" class="form-control text-center" placeholder="MM/AA">
+                        </div>
+                    </div>
+                    
+                    <div class="row mt-3 justify-content-end">
+                        <div class="col-2">
+                            <button class="btn btn-primary">PAGAR</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div> 
+    {{-- End of the single payment method --}}
 
     <script src="{{asset('js/app.js')}}"></script>
 </body>
