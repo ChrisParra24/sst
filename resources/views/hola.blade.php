@@ -43,29 +43,17 @@
         </div>
     </nav>
 
-    {{-- This is the first part of our site --}}
-    <div class="container-fluid mt-5">
-        <div class="row align-items-center">
-            <div class="col-7">
-                <h1 class="text-center">The best way to xyz on abc with your friends!</h1>
-                <p class="text-center text-wrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta atque labore corrupti reiciendis,
-                    cumque maiores eius unde iste qui doloribus aliquid vero exercitationem necessitatibus dolor enim a modi 
-                    fugit minima!
-                    
-                </p>
-            </div>
+    {{-- This is the part of the video --}}
+    <div class="container mt-5">
+        <div class="row justify-content-center">
             <div class="col-5">
-                <img src="{{asset('images/fotoPerfil.jpg')}}" class="rounded img-fluid" alt="imagen_prueba_perfil">
+                <h1>Video de presentación</h1>
             </div>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-2">
-                <button class="btn btn-outline-success">
-                    INSCRÍBETE AHORA
-                </button>
+
+        <div class="row justify-content-center mt-3">
+            <div class="col-8 align-item-self-center">
+                <video src="" width="700" height="400" controls="true"></video>
             </div>
         </div>
     </div>
