@@ -44,7 +44,7 @@
     </nav>
 
     {{-- This is the part of the video --}}
-    <div class="container mt-5">
+    <div class="container mt-4">
         <div class="row justify-content-center">
             <div class="col-5">
                 <h1>Video de presentación</h1>
@@ -53,7 +53,103 @@
 
         <div class="row justify-content-center mt-3">
             <div class="col-8 align-item-self-center">
-                <video src="" width="700" height="400" controls="true"></video>
+                <video src="" width="700" height="450" controls="true"></video>
+            </div>
+        </div>
+    </div>
+
+    {{-- This is the part of the brief--}}
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-5">
+                <h3>Titulo de la carta que va</h3>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-3">
+            <div class="col-8">
+                <p class="text-justify text-wrap"> 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, asperiores ipsa?
+                    Minima deserunt hic doloremque tempora soluta, fugiat exercitationem quam rerum possimus perspiciatis atque eligendi 
+                    aperiam excepturi, maxime, maiores ipsam?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo veritatis non asperiores aliquam dignissimos veniam,
+                    nostrum ex corrupti delectus, eius quo recusandae labore!
+                    <br><br>
+                    Eveniet optio minus ut dolorem doloribus obcaecati.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dicta quia facere, officiis alias excepturi officia laudantium
+                    reprehenderit molestiae ipsa magnam cupiditate? Debitis quisquam in, dicta fugit optio culpa illo?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sed nostrum deserunt minima ea reprehenderit obcaecati, 
+                    dolorem facere doloribus vel officia cum a omnis culpa provident quaerat blanditiis quod aspernatur.
+                    <br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptatum cupiditate quisquam. Enim hic adipisci eius cumque
+                    illum nulla odit tenetur dicta vitae sit, modi voluptatum ea autem officia totam!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptas eveniet laudantium incidunt temporibus, vitae, perspiciatis nostrum,
+                    consequuntur libero asperiores voluptatem. Quod ea consequatur saepe, sit illum alias ut vel!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias blanditiis ex numquam animi? Distinctio soluta fugiat sunt veritatis odio a.
+                    Obcaecati aut impedit culpa odit aspernatur reiciendis hic, sit vel!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    {{-- This is the part of the HVCO 1 --}}
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-2">
+                <h2>HVCO #1</h2>
+            </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center">
+            <div class="col-4">
+                <img src="{{asset('images/fotoPerfil.jpg')}}" alt="img_hvco1" height="300" width="300">
+            </div>
+            
+            <div class="col-3">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti consectetur quo ullam.
+                    Sequi quos esse et sunt quam temporibus cum eum reprehenderit nisi maiores, asperiores ullam,
+                    velit iste, fuga deleniti?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel ab id accusamus similique,
+                    nobis dolore illo fugit iste perspiciatis eius mollitia cumque soluta labore non laborum cum.
+                </p>
+            </div>
+
+            <div class="col-5">
+                <form action="#">
+                    <div class="form-group row">
+                        <div class="col-sm-2">
+                            <label for="">Nombre</label>
+                        </div>
+                        <div class="col-sm-8">
+                            <input type="text" name="" id="" placeholder="Ingresa tu nombre..." class="form-control text-center">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-sm-2">
+                            <label for="">Correo</label>
+                        </div>
+                        <div class="col-sm-8">
+                            <input type="email" name="" id="" placeholder="Ingresa tu email..." class="form-control text-center">            
+                        </div>
+                    </div>
+
+                    <div class="form-group row justify-content-center">
+                        <div class="col-sm-5">
+                            <button class="btn btn-primary">Descargar PDF</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-2">
+            <div class="col-4">
+                <input type="email" name="" id="" placeholder="Ingresa tu email" class="form-control text-center">
+            </div>
+            <div class="col-2">
+                <button class="btn btn-primary">Descargar PDF</button>
             </div>
         </div>
     </div>
