@@ -92,7 +92,7 @@
         </div>
     </div>
 
-    {{-- This is the part of the HVCO 1 --}}
+    {{-- This is the part of the HVCO #1 --}}
     <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="col-2">
@@ -144,12 +144,109 @@
             </div>
         </div>
 
-        <div class="row justify-content-center mt-2">
-            <div class="col-4">
-                <input type="email" name="" id="" placeholder="Ingresa tu email" class="form-control text-center">
+    </div>
+
+    {{-- This is the part of the HVCO #2 --}}
+    <div class="container-fluid mt-5">
+        <div class="card text-center">
+            <div class="card-header">
+                HVCO #2
             </div>
-            <div class="col-2">
-                <button class="btn btn-primary">Descargar PDF</button>
+
+            <div class="card-body">
+                <h2 class="card-title">Título</h2>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-4">
+                        <img src="{{asset('images/fotoPerfil.jpg')}}" alt="img_hvco2" height="300" width="300">
+                    </div>
+                        
+                    <div class="col-8">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti consectetur quo ullam.
+                            Sequi quos esse et sunt quam temporibus cum eum reprehenderit nisi maiores, asperiores ullam,
+                            velit iste, fuga deleniti?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel ab id accusamus similique,
+                            nobis dolore illo fugit iste perspiciatis eius mollitia cumque soluta labore non laborum cum.
+                        </p>
+                        <form action="#">
+                            <div class="form-group row">
+                                <div class="col-sm-2">
+                                    <label for="">Nombre</label>
+                                </div>
+                                <div class="col-sm-8">
+                                    <input type="text" name="" id="" placeholder="Ingresa tu nombre..." class="form-control text-center">
+                                </div>
+                            </div>
+            
+                            <div class="form-group row">
+                                <div class="col-sm-2">
+                                    <label for="">Correo</label>
+                                </div>
+                                <div class="col-sm-8">
+                                    <input type="email" name="" id="" placeholder="Ingresa tu email..." class="form-control text-center">            
+                                </div>
+                            </div>
+            
+                            <div class="form-group row justify-content-center">
+                                <div class="col-sm-5">
+                                    <button class="btn btn-primary">Descargar PDF</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div> {{-- This is the end of the body's card --}}
+
+            <div class="card-footer text-muted">
+                <p>Se puede poner algo más aquí</p>
+            </div>
+        </div>
+    </div>
+
+    {{-- This is the part of the HVCO #3 --}}
+    <div class="container-fluid mt-5">
+        <div class="card">
+            <img src="{{asset('images/fotoPerfil.jpg')}}" alt="imag_hvco3" class="card-img-top" height="200">
+            <div class="card-body">
+                <h2 class="card-title">HVCO #3</h2>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-6">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti consectetur quo ullam.
+                            Sequi quos esse et sunt quam temporibus cum eum reprehenderit nisi maiores, asperiores ullam,
+                            velit iste, fuga deleniti?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel ab id accusamus similique,
+                            nobis dolore illo fugit iste perspiciatis eius mollitia cumque soluta labore non laborum cum.
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <form action="#">
+                            <div class="form-group row">
+                                <div class="col-sm-2">
+                                    <label for="">Nombre</label>
+                                </div>
+                                <div class="col-sm-8">
+                                    <input type="text" name="" id="" placeholder="Ingresa tu nombre..." class="form-control text-center">
+                                </div>
+                            </div>
+            
+                            <div class="form-group row">
+                                <div class="col-sm-2">
+                                    <label for="">Correo</label>
+                                </div>
+                                <div class="col-sm-8">
+                                    <input type="email" name="" id="" placeholder="Ingresa tu email..." class="form-control text-center">            
+                                </div>
+                            </div>
+            
+                            <div class="form-group row justify-content-center">
+                                <div class="col-sm-5">
+                                    <button class="btn btn-primary">Descargar PDF</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
